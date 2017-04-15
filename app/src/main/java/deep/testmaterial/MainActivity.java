@@ -12,15 +12,22 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //setSupportActionBar(toolbar);
+
     }
     public  void onClick(View view){
         switch (view.getId()){
-            case R.id.animation:
+            case R.id.animation_btn:
                 Intent animation = new Intent(MainActivity.this,Animation.class);
                 startActivity(animation);
                 break;
-
+            case R.id.theme_btn:
+                Intent theme = new Intent(MainActivity.this,ThemeActivity.class);
+                startActivity(theme);
+                break;
+            case R.id.card_btn:
+                Intent card = new Intent(MainActivity.this,CardActivity.class);
+                startActivity(card);
+                break;
         }
     }
 }

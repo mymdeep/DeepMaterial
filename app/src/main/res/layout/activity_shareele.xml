@@ -8,6 +8,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/img"
         android:transitionName="img"
+        android:layout_centerHorizontal="true"
         android:src="@mipmap/ic_launcher_round"/>
     <LinearLayout
         android:orientation="vertical"

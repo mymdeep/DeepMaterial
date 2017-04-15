@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="deep.testmaterial.MainActivity">
 
 
@@ -11,8 +12,19 @@
    <android.support.v7.widget.AppCompatButton
        android:layout_width="match_parent"
        android:onClick="onClick"
-       android:id="@+id/animation"
+       android:id="@+id/animation_btn"
        android:text="animation"
        android:layout_height="wrap_content"/>
-
+   <android.support.v7.widget.AppCompatButton
+       android:layout_width="match_parent"
+       android:onClick="onClick"
+       android:id="@+id/theme_btn"
+       android:text="theme"
+       android:layout_height="wrap_content"/>
+   <android.support.v7.widget.AppCompatButton
+       android:layout_width="match_parent"
+       android:onClick="onClick"
+       android:id="@+id/card_btn"
+       android:text="cardView and RecyclerView"
+       android:layout_height="wrap_content"/>
 </LinearLayout>
