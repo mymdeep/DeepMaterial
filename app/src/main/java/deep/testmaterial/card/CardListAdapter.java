@@ -37,12 +37,17 @@ public MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 @Override
 public void onBindViewHolder(MyViewHolder holder, int position) {
     holder.tv.setText(list.get(position));
-    icardViewChanger.changeCardView(holder.cardView);
+    if (icardViewChanger!=null){
+        icardViewChanger.changeCardView(holder.cardView);
     }
 
+    }
 
+    public void setIcardViewChanger(IcardViewChanger icardViewChanger) {
+        this.icardViewChanger = icardViewChanger;
+    }
 
-@Override
+    @Override
 public int getItemCount() {
     return list.size();
     }
