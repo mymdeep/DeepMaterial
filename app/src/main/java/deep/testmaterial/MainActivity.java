@@ -28,6 +28,10 @@ public class MainActivity extends AppCompatActivity {
                 Intent card = new Intent(MainActivity.this,CardActivity.class);
                 startActivity(card);
                 break;
+            case R.id.coordinator:
+                Intent coordinator = new Intent(MainActivity.this,CoordinatorActivity.class);
+                startActivity(coordinator);
+                break;
         }
     }
 }
