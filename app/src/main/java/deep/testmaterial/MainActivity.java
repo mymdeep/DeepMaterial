@@ -32,6 +32,10 @@ public class MainActivity extends AppCompatActivity {
                 Intent coordinator = new Intent(MainActivity.this,CoordinatorActivity.class);
                 startActivity(coordinator);
                 break;
+            case R.id.nested:
+                Intent nested = new Intent(MainActivity.this,NestedScrollViewActivity.class);
+                startActivity(nested);
+                break;
         }
     }
 }

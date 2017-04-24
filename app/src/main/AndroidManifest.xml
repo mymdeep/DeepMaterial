@@ -47,6 +47,9 @@
         <activity android:name=".CoordinatorActivity"
                   android:theme="@style/TestAppTheme">
         </activity>
+        <activity android:name=".NestedScrollViewActivity"
+                  android:theme="@style/TestAppTheme">
+        </activity>
     </application>
 
 </manifest>

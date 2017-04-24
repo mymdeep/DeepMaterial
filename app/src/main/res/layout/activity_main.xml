@@ -33,4 +33,10 @@
        android:id="@+id/coordinator"
        android:text="CoordinatorLayout"
        android:layout_height="wrap_content"/>
+   <android.support.v7.widget.AppCompatButton
+       android:layout_width="match_parent"
+       android:onClick="onClick"
+       android:id="@+id/nested"
+       android:text="NestedScrollView"
+       android:layout_height="wrap_content"/>
 </LinearLayout>
